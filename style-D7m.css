@@ -1,0 +1,146 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.body{
+    /* width:95vw; */
+    
+    /* display:flex;
+    justify-content:center; */
+}
+
+.tabella{
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+h1{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    color:grey;
+    font-size:20px;
+}
+
+.menu1{
+    display:flex;
+    justify-content: center;
+}
+
+.primalista{
+    color:red;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.related{
+    font-weight: bold;
+    color:grey;
+}
+
+.menu2{
+    display:flex;
+    justify-content: space-between;
+    padding-top:40px;
+    /* padding-bottom:40px; */
+    align-items:center;
+}
+
+#popular{
+    border: solid pink 2px;
+    border-radius:15px;
+    padding-left:20px;
+    padding-right:60px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#filters{
+    border:solid grey 1px;
+    border-radius:15px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.webdesign{
+    font-weight:bold;
+    background-color:lightgrey;
+    border-radius:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.sottomenu{
+    display:flex;
+    align-items:center;
+}
+
+.secondalista{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.immagini{
+    display:flex;
+    justify-content:space-between;
+    padding-top:40px;
+}
+
+.immagini img{
+    width:20vw;
+    border-radius:15px;
+}
+
+.descrizioni{
+    display:flex;
+    justify-content:space-between;
+}
+
+.sottodescrizione{
+    display:flex;
+    align-items:center;
+    font-size:12px;
+    justify-content:space-evenly;
+    width:20vw;
+}
+
+/* .sottodescrizione2{
+    display:flex;
+    align-items:center;
+    font-size:12px;
+    justify-content:space-between;
+    width:20vw;
+} */
+
+.sottodescrizione img{
+    border-radius:50%;
+    width:2vw;
+}
+
+#pro{
+    /* padding-right:20px; */
+    color:white;
+    background-color:lightgrey;
+    border-radius: 5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.cuore{
+    padding-left:20px;
+}
+
+.boosted{
+    color:lightgrey;
+    padding-left:40px;
+    font-weight:bold;
+}
